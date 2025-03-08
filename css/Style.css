@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,nav,main,footer{
+    width: 100%;
+    padding: 30px;
+    background-color: #441752;
+    color: #EFB6C8;
+}
+header, footer{
+    text-align: center;
+    font-size: 48px;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+    position: relative;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#icono-casa {
+    position: absolute;
+    left: 20px;
+}
+
+nav{
+    height: auto;
+    background-color: #8174A0;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    width: 10%;
+    min-width: 100px;
+    height: 60px;
+    background-color: #441752;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main{
+    height: auto;
+    background-color: #efb6c8;
+    color: #8174a0;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+footer{
+    font-size: 24px;
+}
+section{
+    width: 70%;
+    height: auto;
+    background-color: #a888b5;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    color: #efb6c8;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+h2{
+    color: #441752;
+}
+a{
+    text-decoration: none;
+}
+    a:link{
+    color: white;
+}
+a:visited{
+    color: coral;
+}
+a:hover{
+    color: #efb6c8;
+}
+nav ul li:hover{
+    background-color: #441752;
+    width: 12%
+}
+nav ul li a:hover{
+    color: #8174A0;
+}
+p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+main nav{
+    width: 50%
+}
+main nav ul li{
+    width: 20%
+}
+img{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#img_gif{
+    width: 30%;
+    border-radius: 50%;
+}
+.img_float{
+    width: 15%;
+    min-width: 10%;
+}
+#img_izq{
+    float: left;
+    margin: 0px;
+    margin-right: 20px;
+}
+#img_der{
+    float: right;
+    margin: 0px;
+}
+#img_ico{
+    width: 64px;
+    height: auto;
+    margin-right: 0;
+}
+#fondo{
+    height: 600px;
+    background-image: url("../Imagenes/fondo.jpg");
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
+}
+video, iframe{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+.box_videos{
+    text-align: center;
+}
+.box_videos section{
+    width: 40%;
+    min-width: 360px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 500px;
+    overflow-y: auto;
+}
+.box_section p{
+    text-align: justify;
+}
+.img_animacion{
+    width: 50%;
+    border-radius: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+form{
+    width: 50%;
+    background-color: #441752;
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color: coral;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+input[type=text],input[type=password]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #EFB6C8;
+    color: #441752;
+    border: 5px solid mediumslateblue;
+    border-radius: 10px;
+}
+input[type=text]:focus,input[type=password]:focus{
+    background-color: lightsteelblue;
+    color: darkblue;
+    font-weight: bolder;
+    border:5px solid aliceblue;
+}
+label{
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+input[type=submit]{
+    width: 20%;
+    min-width: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 10px;
+    background-color: coral;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.img_perfil{
+    width: 45%;
+    min-width: 15%;
+}
+#img_derecha{
+    float: right;
+    margin: 0px;
+    margin-left: 20px;
+}

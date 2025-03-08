@@ -1,0 +1,276 @@
+<!--
+facultad de arquitectura
+colegio de diseño grafico
+diseño de interfaces graficas de usuario
+
+202069394 Juarez Xontle Moises
+-->
+
+<html>
+<head>
+    <title>Listas en html</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap" rel="stylesheet">
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header, nav,main,footer{
+            width: auto;
+            padding: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        header {
+    height: 100px;
+    background-color: darkblue;
+    color: aliceblue;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header div {
+    position: absolute;
+    left: 20px;
+}
+        header h1{
+            text-align: center;
+        }
+        nav{
+            height: auto;
+            background-color: royalblue;
+        }
+        main{
+            height: auto;
+            background-color: lightblue;
+        }
+        footer{
+            height: 40px;
+            background-color: darkblue;
+            color: aliceblue;
+            font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+            font-size: 30px;
+        }
+        footer h6{
+            text-align: center;
+            color: deepskyblue;
+        }
+                section{
+                    width: 900px;
+                    height: auto;
+                    background-color: gainsboro;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    padding: 50px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+            }
+            ul,ol{
+                padding-left: 30px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            main section dl{
+                /*width: 800px;*/
+            }
+            main section dl dt{
+                font-weight: bold;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+        
+        
+            
+            nav ul {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                padding: 0;
+            }
+
+            nav ul li {
+                margin: 10px;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+
+            nav ul li a {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: skyblue;
+                color: white;
+                text-decoration: none;
+                margin-bottom: auto;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 8px;
+                font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+            }
+
+            nav ul li a:hover {
+                background-color: darkblue;
+            }
+        p{
+            font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+        }
+    </style>
+    </head>
+    <!--Este documento esta elaborado con la herramienta de brakets.io por el desarrollador Moises Juarez Xontle -->
+    <body>
+        <!--La etiqueta header debe contener.... -->
+        <header>
+        <div><a href="../index.html"><img style="width: 32px;" src="../Imagenes/home.png"></a></div>
+        <h1 class="animate__animated animate__backInLeft animate__delay-1s animate__1" >LISTAS EN HTML</h1>
+        </header>
+        <!--La etiqueta nav debe contener.... -->
+        <nav>
+          <ul class="animate__animated animate__bounceInUp animate__delay-2s animate__1">
+            <li><a href="Formatos_Texto.html">Formatos</a></li>
+            <li><a href="Listas.html">Listas</a></li>
+            <li><a href="Enlaces.html">Enlaces</a></li>
+            <li><a href="Tablas.html">Tablas</a></li>
+            <li><a href="Imagenes.html">Imagenes</a></li>
+            <li><a href="Audios.html">Audio</a></li>
+            <li><a href="Video.html">Video</a></li>
+            <li><a href="Formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        
+        <nav>
+        
+        </nav>
+        <!--La etiqueta main debe contener.... -->
+        <main>
+        <section>
+            <h2 id="desordenadas">Listas desordenadas</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque nulla nisi, ut lacinia enim varius et. Sed ut metus semper, cursus nisi id, mollis elit. Suspendisse in consequat nulla. Pellentesque sed pellentesque ante, at pulvinar lacus. Suspendisse egestas semper iaculis. Mauris viverra rutrum dui, vitae ullamcorper erat varius ac. Sed sed purus urna. Phasellus malesuada, mauris sit amet faucibus convallis, turpis nunc sollicitudin turpis, ac fermentum dui purus eget dui. Nam faucibus nunc in metus luctus, non vulputate felis hendrerit. Integer commodo nibh at magna posuere, eget pharetra ligula egestas. Proin egestas nunc non tincidunt imperdiet. Ut fringilla consectetur.</p>
+            <ul>
+            <li>Argentina</li>
+                <li>Colombia</li>
+                <li>Venezuela</li>
+                <li>España</li>
+                <li>Inglaterra</li>
+                <li>Francia</li>
+                <li>Italia</li>
+                <li>Mexico</li>
+                <li>Brasil</li>
+                <li>Puerto Rico</li>
+                <li>Japon</li>
+            </ul>
+            </section>
+            <section>
+            <h2 id="ordenadas">Listas odrdenadas</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue volutpat neque, a cursus lacus dictum egestas. Phasellus molestie tempus viverra. Suspendisse a erat a ex pulvinar venenatis a sit amet tellus. Aenean molestie efficitur turpis, sit amet tempor libero mattis id. Vestibulum tempus accumsan nunc, congue bibendum erat. Vivamus malesuada, risus ac viverra varius, orci augue mattis erat, eu sodales tellus dolor placerat tortor. Mauris ut pretium lacus, vulputate consequat nisi. Mauris ut turpis ullamcorper, facilisis magna non, porta.</p>
+            
+            <ol>
+                <li>Jalisco</li>
+                <li>Vezacruz</li>
+                <li>Guanajuato</li>
+                <li>Colima</li>
+                <li>Puebla</li>
+                <li>Michoacan</li>
+                <li>Oaxaca</li>
+                <li>Baja California</li>
+                <li>Quintana Roo</li>
+                <li>Queretaro</li>
+            </ol>
+            </section>
+            
+            <section>
+            <h2 id="mixtas">Listas mixtas</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat sapien a tortor aliquet tincidunt sed ac magna. Nulla ornare mauris in blandit ullamcorper. Sed vehicula, neque congue euismod imperdiet, elit mauris consequat nunc, pretium vulputate urna tortor vitae leo. Quisque eros justo, ullamcorper vel libero ut, sagittis dapibus orci. Phasellus laoreet tellus non urna ornare, vitae fermentum diam vehicula. Nam condimentum viverra leo, eu fermentum nibh porttitor in. Phasellus magna mi, dapibus nec fermentum eget, mattis eu eros. Integer suscipit neque ut tempor aliquam. Suspendisse fringilla nibh et venenatis imperdiet. Integer accumsan at orci vitae aliquet.In hac habitasse platea dictumst. Nulla auctor et mi eu sodales. Vestibulum eu est aliquam, pellentesque augue sed, tincidunt odio. Cras a ex.</p>
+                <ol>
+                    <li>Tlaxcala</li>
+                    <ul>
+                        <li>Santa Ana Chiutempan</li>
+                        <li>San Luis Teolocholco</li>
+                        <li>Colcha de san juan cuamatzil</li>
+                        <li>Carmen atzana</li>
+                    </ul>
+                    <li>Jalisco</li>
+                    <ul>
+                        <li>Puerto Vallarta</li>
+                        <li>Cabo Corrientes</li>
+                        <li>tequila</li>
+                        <li>Tlaquepaque</li>
+                    </ul>
+                    <li>Puebla</li>
+                    <ul>
+                        <li>Atlixco</li>
+                        <li>Cholula</li>
+                        <li>Acajete</li>
+                        <li>Chignaguapan</li>
+                        <li>Zacatlan</li>
+                        <li>Amozoc</li>
+                        <li>Huauchinango</li>
+                        <li>Cuautlancingo</li>
+                    </ul>
+                    <li>Veracruz</li>
+                    <ul>
+                        <li>Tierra Blanca</li>
+                        <li>Boca del Rio</li>
+                        <li>cuatzacualcos</li>
+                        <li>poza rica</li>
+                    </ul>
+                    <li>Oaxaca</li>
+                    <ul>
+                        <li>Huajuapan</li>
+                        <li>Hierve el Agua</li>
+                        <li>San Juan Chamula</li>
+                    </ul>
+                </ol>
+            </section>
+            <section>
+            <h2 id="de descripcion">Listas de descripcion</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex ex, condimentum id eros nec, tempor mollis nibh. Vivamus elementum dolor justo, ac imperdiet turpis ornare sed. Aliquam ac ligula quam. In consectetur eleifend laoreet. Cras sed dolor interdum metus feugiat consectetur. Maecenas sodales, nulla sit amet euismod eleifend, turpis nisi accumsan turpis, a rutrum nunc neque eu arcu. Pellentesque.</p>
+                <dl>
+                    <dt>Republica</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus tristique nisl sed ultrices. Fusce felis eros, consequat id justo vitae, fringilla venenatis massa. Praesent iaculis elit non ipsum dignissim efficitur. Vestibulum in convallis sem, sed finibus tellus. Vivamus diam urna, posuere vitae mi in, aliquam gravida orci. Aliquam ultrices id ligula eu fringilla. Aliquam erat volutpat. In hac habitasse platea dictumst. Ut nec eros a nulla ullamcorper dictum eget vel lacus. Fusce ultrices dui in metus dictum, a fringilla urna imperdiet. Donec ligula libero, posuere sed sollicitudin et, rutrum in justo. In volutpat tempor nunc, ut finibus diam mollis.</dd>
+                    <dt>Estado</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus augue at bibendum semper. Sed lacinia non nulla eu pretium. Nam imperdiet tempus hendrerit. Nulla faucibus, libero non venenatis tincidunt, sapien ex eleifend neque, a euismod sapien nisl ac eros. Sed porta quam turpis, ut consequat eros accumsan sit amet. Cras sit amet accumsan urna. Mauris placerat, metus sed convallis finibus, ante felis ultrices est, eget laoreet urna libero non risus. Nullam eget congue tortor. Cras eu molestie urna. Mauris cursus scelerisque ex, a venenatis nisi accumsan vitae. Maecenas non cursus erat, non facilisis justo. Morbi justo nunc, feugiat ac.</dd>
+                    <dt>Region</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at ex vel eros ornare mollis. Proin semper iaculis lacus, vel volutpat ipsum porta sit amet. Integer iaculis ornare sem, in tempor neque vestibulum eget. Etiam ac eros et tellus tincidunt pellentesque id in erat. Donec cursus enim finibus, faucibus ligula id, sodales tellus. Praesent viverra massa magna, quis mollis ipsum lacinia non. Morbi facilisis varius velit, sit amet accumsan ipsum dignissim et. Donec rutrum molestie quam, non vulputate turpis ornare hendrerit. Ut malesuada, justo sit amet finibus suscipit, nibh odio varius magna, nec porttitor ligula diam quis nulla. Duis ut.</dd>
+                    <dt>Municipio</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas tempor arcu. Etiam lacinia sem luctus placerat sollicitudin. Maecenas nec nulla sit amet dui auctor placerat. Donec ullamcorper tellus a quam varius, ut scelerisque felis convallis. Phasellus ac tincidunt quam, in hendrerit ante. Mauris sed lorem in metus blandit porta vitae eget turpis. Morbi mattis efficitur consequat. Sed at ultricies sem. In vel nunc vehicula, iaculis ipsum eu, ultrices magna. Morbi lobortis orci felis, id porta enim condimentum tempus. Nam eu turpis urna. Phasellus non posuere risus. Phasellus consectetur gravida lacus fermentum tempus. Maecenas dapibus in tellus at aliquam. Maecenas.</dd>
+                    <dt>Junta Auxiliar</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius convallis dolor in viverra. Donec varius dapibus posuere. Sed libero lorem, blandit in tincidunt eleifend, condimentum a libero. Pellentesque suscipit posuere ante non feugiat. Suspendisse aliquam ultricies velit id mattis. Praesent ac nisl eget risus lobortis vehicula. Aliquam fermentum risus at suscipit lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et efficitur urna, euismod ullamcorper urna.In egestas ac enim vel luctus. Duis vulputate congue nisi a fermentum. Donec pharetra eleifend lorem, at semper sapien faucibus nec. Curabitur.</dd>
+                    <dt>Delegacion</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie tempus tellus, a pretium felis iaculis eu. Maecenas fringilla magna vel justo molestie, quis lacinia risus gravida. Vestibulum ut congue dui. Vivamus accumsan tincidunt quam, eu suscipit mauris. Morbi ante massa, sollicitudin eget pellentesque sit amet, malesuada ac orci. Maecenas tortor justo, malesuada ut erat eget, varius mattis lacus. Mauris facilisis scelerisque tortor, ut consequat sapien commodo eu. Curabitur tempor ante velit, ut pharetra sem ultrices ut. Aliquam elit magna, commodo in sollicitudin eu, ultricies sed sem. Aenean semper finibus facilisis. Donec tempor congue consequat. In sit amet massa sollicitudin.</dd>
+                    <dt>Colonia</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nibh massa, gravida sed mi id, tristique pellentesque felis. Nunc nisl nisi, luctus sit amet neque vitae, aliquam lacinia enim. Vivamus porta dui eget auctor iaculis. Donec tristique dui at magna varius, eu molestie nibh tristique. Cras tempus, massa vitae molestie pretium, dui felis maximus arcu, non tincidunt arcu quam id erat. Phasellus fermentum turpis quis vestibulum rhoncus. Nunc id pretium ligula. Mauris facilisis mattis placerat. Integer nisl felis, dictum at ipsum vitae, consectetur volutpat urna. In congue turpis id ante condimentum, quis consectetur turpis finibus. Donec in metus ac urna.</dd>
+                    <dt>Fraccionamiento</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et tortor interdum, ullamcorper tortor ut, euismod ante. Quisque gravida feugiat erat fringilla condimentum. Maecenas aliquam sapien eget rutrum hendrerit. Aliquam eu justo eleifend, aliquet felis ac, venenatis nibh. Nunc auctor consectetur leo et aliquam. Pellentesque eu ullamcorper nisl. Cras porta, nulla a venenatis lacinia, lectus tortor vehicula neque, vitae porta velit nulla in nunc.Proin eget quam quis odio dapibus consectetur. Quisque tincidunt felis nec dui malesuada porta. Suspendisse tempus laoreet neque, vel scelerisque lacus posuere vitae. Praesent at eros lectus. Praesent tempor finibus turpis non volutpat. Integer in tristique.</dd>
+                </dl>
+            </section>
+            <nav>
+                <ul>
+                    <li> <a href="#desordenadas">Desordenadas</a></li>
+                    <li> <a href="#ordenadas">Ordenadas</a></li>
+                    <li> <a href="#mixtas">Mixtas</a></li>
+                    <li> <a href="#de descripcion">De Descripcion</a></li>
+                </ul>
+            </nav>
+        </main>
+        <!--La etiqueta footer debe contener.... -->
+        <footer>
+        <h6>Elaborado por Moises Juarez Xontle</h6>
+        </footer>
+    </body>
+</html>
